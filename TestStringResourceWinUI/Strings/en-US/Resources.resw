@@ -120,4 +120,7 @@
   <data name="HelloWorldWinUI" xml:space="preserve">
     <value>Hello World, WinUI!</value>
   </data>
+  <data name="TextblockWinUI.Text" xml:space="preserve">
+    <value>WinUI Textblock_US</value>
+  </data>
 </root>

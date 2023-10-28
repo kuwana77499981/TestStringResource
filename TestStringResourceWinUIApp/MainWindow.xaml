@@ -13,6 +13,7 @@
             <RowDefinition/>
             <RowDefinition/>
             <RowDefinition/>
+            <RowDefinition/>
         </Grid.RowDefinitions>
         
         <!-- Core -->
@@ -78,5 +79,12 @@
             </Grid>
         </StackPanel>
 
+        <!-- Uid resw -->
+        <StackPanel HorizontalAlignment="Center" Grid.Row="3">
+            <TextBlock Text="x:Uid Usage"/>
+            <TextBlock x:Uid="/TestStringResourceWinUI/Resources/TextblockWinUI"/>
+            <TextBlock x:Uid="TextblockWinUIApp"/>
+            <TextBlock x:Uid="/Resources/TextblockWinUIApp"/>
+        </StackPanel>
     </Grid>
 </Window>
