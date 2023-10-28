@@ -2,7 +2,7 @@
 
 A playground for demonstrating how to use resx & resw in dotnet 7, WinUI, .Net Standard 2.0 and UWP.
 
-# How to use resx like resw
+## How to use resx like resw
 
 Copy the resw xml text as resx file
 Use ```System.Resources.ResourceManager``` to ```GetString```
@@ -33,7 +33,7 @@ private readonly ResourceManager _rm = new(BaseName, Assembly.GetExecutingAssemb
 var res = loader._rm.GetString(name, culture);
 ```
 
-# Solution Structure
+## Solution Structure
 
 | Project | Type | Descriptions |
 | --- | --- | --- |
@@ -43,9 +43,9 @@ var res = loader._rm.GetString(name, culture);
 | TestStringResourceStandardApp | .Net Standard 2.0 Console App | ... | 
 | TestStringResourceUWPApp | .Net Universal Windows Platform | ... |
 | TestStringResourceWinUI | dotnet 7 WinUI Class Library | resw, ```Microsoft.Windows.ApplicationModel.Resources.ResourceLoader```, ```Microsoft.Windows.ApplicationModel.Resources.ResourceManager```, ```Microsoft.Windows.ApplicationModel.Resources.ResourceContext```.QualifierValues["Language"], ```Windows.Globalization.ApplicationLanguages.PrimaryLanguageOverrid```|
-| TestStringResourceWinUIApp | dotnet 7 WinUI App | ... |
+| TestStringResourceWinUIApp ![.github/workflows/winui-build.yml](https://github.com/kuwana77499981/TestStringResource/actions/workflows/winui-build.yml/badge.svg) | dotnet 7 WinUI App | ... |
 
-## Dotnet 7
+### Dotnet 7
 
 **Project Structure**
 
@@ -88,7 +88,7 @@ TestStringResourceWinUIApp
 
 ```
 
-## .Net Standard 2.0
+### .Net Standard 2.0
 
 **Project Structure**
 
@@ -114,7 +114,7 @@ TestStringResourceUWPApp
 └── Package.appxmanifest
 ```
 
-# Useful Resources
+## Useful Resources
 
 [How to create user-defined exceptions with localized exception messages](https://learn.microsoft.com/en-us/dotnet/standard/exceptions/how-to-create-localized-exception-messages)
 
