@@ -67,18 +67,18 @@ TestStringResourceWinUI
 │   └── LocalizationService.cs
 └── Strings
     ├── en-US
-    │   ├── Resource.resw
+    │   ├── Resources.resw
     └── fr-FR
-        └── Resource.resw
+        └── Resources.resw
  
 TestStringResourceWinUIApp
 ├── Assets
 │   └── ...
 ├── Strings
 │   ├── en-US
-│   │   ├── Resource.resw
+│   │   ├── Resources.resw
 │   └── fr-FR
-│       └── Resource.resw
+│       └── Resources.resw
 ├── App.xaml
 │   └── App.xaml.cs
 ├── MainPage.xaml
